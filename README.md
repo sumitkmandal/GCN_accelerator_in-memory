@@ -8,7 +8,7 @@ Code structure:
 
 noc_simulation.py
 
-    |
+    		|
   
  		|-> generate_trace_files (generate trace_files for inter-CE communication)
   
@@ -28,9 +28,9 @@ noc_simulation.py
   
   	|-> run_simulations (simulation for intra-CE communication)
   
-  	|		|
+  	|			|
   
-		|		|-> noc_simulation_edge_based (execute booksim)
+	|			|-> noc_simulation_edge_based (execute booksim)
   
   
   
