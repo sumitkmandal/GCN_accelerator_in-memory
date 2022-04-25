@@ -63,20 +63,20 @@ noc_simulation.py
   Outpute file structure:
   
   booksim_<dataset_name>
-    |
-    |-> logs_mesh_size_<n>_bit_<q>_<dataset_name>_chip_<c> (inter-CE communication performance)
-    |
-    |       |-> comm_area* (inter-CE NoC area in mm^2)
-    |       |-> comm_energy* (inter-CE NoC energy per layer in J)
-    |       |-> comm_latency* (inter-CE NoC latency per layer in ns assuming 1 GHz clock frequency)
-    |
-    |-> logs_mesh_size_<n>_bit_<q>_<dataset_name>_high_chip_<c> (intra-CE communication performance with CE having highest connections)
-    |
-    |       |-> same as above
-    |
-    |-> logs_mesh_size_<n>_bit_<q>_<dataset_name>_low_chip_<c> (intra-CE communication performance with CE having highest connections)
-    |
-    |       |-> same as above  
+    	|
+    	|-> logs_mesh_size_<n>_bit_<q>_<dataset_name>_chip_<c> (inter-CE communication performance)
+    	|
+    	|       |-> comm_area* (inter-CE NoC area in mm^2)
+    	|       |-> comm_energy* (inter-CE NoC energy per layer in J)
+    	|       |-> comm_latency* (inter-CE NoC latency per layer in ns assuming 1 GHz clock frequency)
+    	|
+    	|-> logs_mesh_size_<n>_bit_<q>_<dataset_name>_high_chip_<c> (intra-CE communication performance with CE having highest connections)
+    	|
+    	|       |-> same as above
+    	|
+    	|-> logs_mesh_size_<n>_bit_<q>_<dataset_name>_low_chip_<c> (intra-CE communication performance with CE having highest connections)
+    	|
+    	|       |-> same as above  
   
   Output data:
   
