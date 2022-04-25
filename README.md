@@ -69,8 +69,7 @@ noc_simulation.py
     |
     |-> logs_mesh_size_<n>_bit_<q>_<dataset_name>_low_chip_<c> (intra-CE communication performance with CE having highest connections)
     |
-    |       |-> same as above
-  
+    |       |-> same as above  
   
   Output data:
   
