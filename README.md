@@ -68,7 +68,7 @@ noc_simulation.py
 
 Performance evaluation of the communication
 Coming Soon.
-  
+
   
 If you are using the simulator, please cite the following publication:
 [1] S. K. Mandal, G. Krishnan, A. Alper Goksoy, G. R. Nair, Y. Cao and U. Y. Ogras, "COIN: Communication-Aware In-Memory Acceleration for Graph Convolutional Networks," in IEEE Journal on Emerging and Selected Topics in Circuits and Systems, doi: 10.1109/JETCAS.2022.3169899.
